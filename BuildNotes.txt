@@ -1,0 +1,22 @@
+The reading of the tags is done by the "id3tag" library by Underbit.
+Install it with
+	
+	fink install libid3tag
+
+or grab the source:
+
+	http://sourceforge.net/project/showfiles.php?group_id=12349
+
+The FreeDB is done with the "AGRegex" regular expression framework.
+Get it at 
+
+	http://sourceforge.net/projects/agkit/
+
+and build it in the same parent directory as "src", e.g.
+
+	TriTag/
+		AGRegex/
+		src/
+
+Please note that if you build it by yourself than you have to correct
+several paths in the project settings.

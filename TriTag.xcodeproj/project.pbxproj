@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		424A945806C69754002F28B8 /* FFPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 424A945606C69754002F28B8 /* FFPreferences.m */; };
+		424A945906C69754002F28B8 /* FFPreferences.h in Headers */ = {isa = PBXBuildFile; fileRef = 424A945706C69754002F28B8 /* FFPreferences.h */; };
+		4260174F06C6623000E353AA /* mp3tech.c in Sources */ = {isa = PBXBuildFile; fileRef = 4260174D06C6623000E353AA /* mp3tech.c */; };
+		4260175006C6623000E353AA /* mp3tech.h in Headers */ = {isa = PBXBuildFile; fileRef = 4260174E06C6623000E353AA /* mp3tech.h */; };
+		4260175606C6626C00E353AA /* FFMP3Len.h in Headers */ = {isa = PBXBuildFile; fileRef = 4260175406C6626C00E353AA /* FFMP3Len.h */; };
+		4260175706C6626C00E353AA /* FFMP3Len.c in Sources */ = {isa = PBXBuildFile; fileRef = 4260175506C6626C00E353AA /* FFMP3Len.c */; };
+		4260179406C66C9900E353AA /* FFFreeDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 4260179206C66C9900E353AA /* FFFreeDB.m */; };
+		4260179506C66C9900E353AA /* FFFreeDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 4260179306C66C9900E353AA /* FFFreeDB.h */; };
+		42A5B29F06C7C88E00BD54AA /* FFProgress.h in Headers */ = {isa = PBXBuildFile; fileRef = 42A5B29D06C7C88E00BD54AA /* FFProgress.h */; };
+		42A5B2A006C7C88E00BD54AA /* FFProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A5B29E06C7C88E00BD54AA /* FFProgress.m */; };
+		42E5894406CAAD3200ED1BE5 /* FFFavPatterns.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E5894206CAAD3200ED1BE5 /* FFFavPatterns.m */; };
+		42E5894506CAAD3200ED1BE5 /* FFFavPatterns.h in Headers */ = {isa = PBXBuildFile; fileRef = 42E5894306CAAD3200ED1BE5 /* FFFavPatterns.h */; };
+		42E5AACD06B816EA005E9006 /* FFScriptCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 42E5AACB06B816EA005E9006 /* FFScriptCommand.h */; };
+		42E5AACE06B816EA005E9006 /* FFScriptCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E5AACC06B816EA005E9006 /* FFScriptCommand.m */; };
+		42E5AAF306B81A8D005E9006 /* TriTag.scriptSuite in Resources */ = {isa = PBXBuildFile; fileRef = 42E5AAF106B81A8D005E9006 /* TriTag.scriptSuite */; };
+		42E5AAF406B81A8D005E9006 /* TriTag.scriptTerminology in Resources */ = {isa = PBXBuildFile; fileRef = 42E5AAF206B81A8D005E9006 /* TriTag.scriptTerminology */; };
+		42E7499406A2DE1200A34CEA /* TriTag_Prefix.h in Headers */ = {isa = PBXBuildFile; fileRef = 32CA4F630368D1EE00C91783 /* TriTag_Prefix.h */; };
+		42E7499506A2DE1200A34CEA /* FFController.h in Headers */ = {isa = PBXBuildFile; fileRef = 42F364D504FA460B00A87BA6 /* FFController.h */; };
+		42E7499606A2DE1200A34CEA /* FFData.h in Headers */ = {isa = PBXBuildFile; fileRef = 42F364D904FA47BE00A87BA6 /* FFData.h */; };
+		42E7499706A2DE1200A34CEA /* FFDropWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 42F364DD04FA51E900A87BA6 /* FFDropWindow.h */; };
+		42E7499806A2DE1200A34CEA /* FFFilenameToTag.h in Headers */ = {isa = PBXBuildFile; fileRef = 42F364E104FA687E00A87BA6 /* FFFilenameToTag.h */; };
+		42E7499906A2DE1200A34CEA /* FFPlaceholders.h in Headers */ = {isa = PBXBuildFile; fileRef = 4228A58C04FBB22300A87BA6 /* FFPlaceholders.h */; };
+		42E7499A06A2DE1200A34CEA /* FFTagToFilename.h in Headers */ = {isa = PBXBuildFile; fileRef = 4285238604FBCC1B00A87BA6 /* FFTagToFilename.h */; };
+		42E7499B06A2DE1200A34CEA /* id3tag_filestructs.h in Headers */ = {isa = PBXBuildFile; fileRef = 42DD524A05DAAD510008E513 /* id3tag_filestructs.h */; };
+		42E7499C06A2DE1200A34CEA /* FFStringAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 42AF2EF405F1230300EC8DC1 /* FFStringAdditions.h */; };
+		42E7499D06A2DE1200A34CEA /* rcsid.h in Headers */ = {isa = PBXBuildFile; fileRef = 42E7498806A2DC4200A34CEA /* rcsid.h */; };
+		42E7499E06A2DE1200A34CEA /* FFSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 42E7498A06A2DD2000A34CEA /* FFSupport.h */; };
+		42E749A006A2DE1200A34CEA /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		42E749A106A2DE1200A34CEA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		42E749A206A2DE1200A34CEA /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4247EDEF05149CFA00A87BA6 /* AppIcon.icns */; };
+		42E749A306A2DE1200A34CEA /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = 42E32EAE05D16C70003AD492 /* Credits.html */; };
+		42E749A506A2DE1200A34CEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		42E749A606A2DE1200A34CEA /* FFController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F364D604FA460B00A87BA6 /* FFController.m */; };
+		42E749A706A2DE1200A34CEA /* FFData.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F364DA04FA47BE00A87BA6 /* FFData.m */; };
+		42E749A806A2DE1200A34CEA /* FFDropWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F364DE04FA51E900A87BA6 /* FFDropWindow.m */; };
+		42E749A906A2DE1200A34CEA /* FFFilenameToTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F364E204FA687E00A87BA6 /* FFFilenameToTag.m */; };
+		42E749AA06A2DE1200A34CEA /* FFPlaceholders.m in Sources */ = {isa = PBXBuildFile; fileRef = 4228A58D04FBB22300A87BA6 /* FFPlaceholders.m */; };
+		42E749AB06A2DE1200A34CEA /* FFTagToFilename.m in Sources */ = {isa = PBXBuildFile; fileRef = 4285238704FBCC1B00A87BA6 /* FFTagToFilename.m */; };
+		42E749AC06A2DE1200A34CEA /* FFStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AF2EF505F1230300EC8DC1 /* FFStringAdditions.m */; };
+		42E749AD06A2DE1200A34CEA /* FFSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E7498B06A2DD2000A34CEA /* FFSupport.m */; };
+		42E749AF06A2DE1200A34CEA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		42F2621106B6BB1200159A0C /* FFV1Genres.h in Headers */ = {isa = PBXBuildFile; fileRef = 42F2620F06B6BB1200159A0C /* FFV1Genres.h */; };
+		42F2621206B6BB1200159A0C /* FFV1Genres.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F2621006B6BB1200159A0C /* FFV1Genres.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		424A94B306C69C1F002F28B8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* TriTag_Prefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriTag_Prefix.h; sourceTree = "<group>"; };
+		4228A58C04FBB22300A87BA6 /* FFPlaceholders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFPlaceholders.h; sourceTree = "<group>"; };
+		4228A58D04FBB22300A87BA6 /* FFPlaceholders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFPlaceholders.m; sourceTree = "<group>"; };
+		4247EDEF05149CFA00A87BA6 /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = "<group>"; };
+		424A945606C69754002F28B8 /* FFPreferences.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = FFPreferences.m; sourceTree = "<group>"; };
+		424A945706C69754002F28B8 /* FFPreferences.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = FFPreferences.h; sourceTree = "<group>"; };
+		4260174D06C6623000E353AA /* mp3tech.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = mp3tech.c; sourceTree = "<group>"; };
+		4260174E06C6623000E353AA /* mp3tech.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = mp3tech.h; sourceTree = "<group>"; };
+		4260175406C6626C00E353AA /* FFMP3Len.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFMP3Len.h; sourceTree = "<group>"; };
+		4260175506C6626C00E353AA /* FFMP3Len.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FFMP3Len.c; sourceTree = "<group>"; };
+		4260179206C66C9900E353AA /* FFFreeDB.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = FFFreeDB.m; sourceTree = "<group>"; };
+		4260179306C66C9900E353AA /* FFFreeDB.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = FFFreeDB.h; sourceTree = "<group>"; };
+		4285238604FBCC1B00A87BA6 /* FFTagToFilename.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFTagToFilename.h; sourceTree = "<group>"; };
+		4285238704FBCC1B00A87BA6 /* FFTagToFilename.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFTagToFilename.m; sourceTree = "<group>"; };
+		42A5B29D06C7C88E00BD54AA /* FFProgress.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = FFProgress.h; sourceTree = "<group>"; };
+		42A5B29E06C7C88E00BD54AA /* FFProgress.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = FFProgress.m; sourceTree = "<group>"; };
+		42AF2EF405F1230300EC8DC1 /* FFStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFStringAdditions.h; sourceTree = "<group>"; };
+		42AF2EF505F1230300EC8DC1 /* FFStringAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFStringAdditions.m; sourceTree = "<group>"; };
+		42CEF80306A41BE20047A49F /* BuildNotes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BuildNotes.txt; sourceTree = "<group>"; };
+		42DD524A05DAAD510008E513 /* id3tag_filestructs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = id3tag_filestructs.h; sourceTree = "<group>"; };
+		42E32EAE05D16C70003AD492 /* Credits.html */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.html; path = Credits.html; sourceTree = "<group>"; };
+		42E5894206CAAD3200ED1BE5 /* FFFavPatterns.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = FFFavPatterns.m; sourceTree = "<group>"; };
+		42E5894306CAAD3200ED1BE5 /* FFFavPatterns.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = FFFavPatterns.h; sourceTree = "<group>"; };
+		42E5AACB06B816EA005E9006 /* FFScriptCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFScriptCommand.h; sourceTree = "<group>"; };
+		42E5AACC06B816EA005E9006 /* FFScriptCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFScriptCommand.m; sourceTree = "<group>"; };
+		42E5AAE006B819C0005E9006 /* TriTag.sdef */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = TriTag.sdef; sourceTree = "<group>"; };
+		42E5AAF106B81A8D005E9006 /* TriTag.scriptSuite */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = TriTag.scriptSuite; sourceTree = "<group>"; };
+		42E5AAF206B81A8D005E9006 /* TriTag.scriptTerminology */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = TriTag.scriptTerminology; sourceTree = "<group>"; };
+		42E7498806A2DC4200A34CEA /* rcsid.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = rcsid.h; sourceTree = "<group>"; };
+		42E7498A06A2DD2000A34CEA /* FFSupport.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = FFSupport.h; sourceTree = "<group>"; };
+		42E7498B06A2DD2000A34CEA /* FFSupport.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = FFSupport.m; sourceTree = "<group>"; };
+		42E749B106A2DE1200A34CEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42E749D306A2DF0B00A34CEA /* TriTag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TriTag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42F2620F06B6BB1200159A0C /* FFV1Genres.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFV1Genres.h; sourceTree = "<group>"; };
+		42F2621006B6BB1200159A0C /* FFV1Genres.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFV1Genres.m; sourceTree = "<group>"; };
+		42F364D504FA460B00A87BA6 /* FFController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = FFController.h; sourceTree = "<group>"; };
+		42F364D604FA460B00A87BA6 /* FFController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = FFController.m; sourceTree = "<group>"; };
+		42F364D904FA47BE00A87BA6 /* FFData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFData.h; sourceTree = "<group>"; };
+		42F364DA04FA47BE00A87BA6 /* FFData.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; path = FFData.m; sourceTree = "<group>"; };
+		42F364DD04FA51E900A87BA6 /* FFDropWindow.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = FFDropWindow.h; sourceTree = "<group>"; };
+		42F364DE04FA51E900A87BA6 /* FFDropWindow.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = FFDropWindow.m; sourceTree = "<group>"; };
+		42F364E104FA687E00A87BA6 /* FFFilenameToTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFFilenameToTag.h; sourceTree = "<group>"; };
+		42F364E204FA687E00A87BA6 /* FFFilenameToTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFFilenameToTag.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42E749AE06A2DE1200A34CEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42E749AF06A2DE1200A34CEA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				42F364D504FA460B00A87BA6 /* FFController.h */,
+				42F364D604FA460B00A87BA6 /* FFController.m */,
+				42F364D904FA47BE00A87BA6 /* FFData.h */,
+				42F364DA04FA47BE00A87BA6 /* FFData.m */,
+				42F364DD04FA51E900A87BA6 /* FFDropWindow.h */,
+				42F364DE04FA51E900A87BA6 /* FFDropWindow.m */,
+				42F364E104FA687E00A87BA6 /* FFFilenameToTag.h */,
+				42F364E204FA687E00A87BA6 /* FFFilenameToTag.m */,
+				4228A58C04FBB22300A87BA6 /* FFPlaceholders.h */,
+				4228A58D04FBB22300A87BA6 /* FFPlaceholders.m */,
+				4285238604FBCC1B00A87BA6 /* FFTagToFilename.h */,
+				4285238704FBCC1B00A87BA6 /* FFTagToFilename.m */,
+				42E5AACB06B816EA005E9006 /* FFScriptCommand.h */,
+				42E5AACC06B816EA005E9006 /* FFScriptCommand.m */,
+				4260179306C66C9900E353AA /* FFFreeDB.h */,
+				4260179206C66C9900E353AA /* FFFreeDB.m */,
+				424A945706C69754002F28B8 /* FFPreferences.h */,
+				424A945606C69754002F28B8 /* FFPreferences.m */,
+				42E5894306CAAD3200ED1BE5 /* FFFavPatterns.h */,
+				42E5894206CAAD3200ED1BE5 /* FFFavPatterns.m */,
+				42A5B29D06C7C88E00BD54AA /* FFProgress.h */,
+				42A5B29E06C7C88E00BD54AA /* FFProgress.m */,
+				42AF2EF405F1230300EC8DC1 /* FFStringAdditions.h */,
+				42AF2EF505F1230300EC8DC1 /* FFStringAdditions.m */,
+				42E7498A06A2DD2000A34CEA /* FFSupport.h */,
+				42E7498B06A2DD2000A34CEA /* FFSupport.m */,
+			);
+			name = Classes;
+			sourceTree = SOURCE_ROOT;
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42E749D306A2DF0B00A34CEA /* TriTag.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* TriTag */ = {
+			isa = PBXGroup;
+			children = (
+				42CEF80306A41BE20047A49F /* BuildNotes.txt */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = TriTag;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				42F2620F06B6BB1200159A0C /* FFV1Genres.h */,
+				42F2621006B6BB1200159A0C /* FFV1Genres.m */,
+				4260175406C6626C00E353AA /* FFMP3Len.h */,
+				4260175506C6626C00E353AA /* FFMP3Len.c */,
+				4260174E06C6623000E353AA /* mp3tech.h */,
+				4260174D06C6623000E353AA /* mp3tech.c */,
+				42DD524A05DAAD510008E513 /* id3tag_filestructs.h */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				42E7498806A2DC4200A34CEA /* rcsid.h */,
+				32CA4F630368D1EE00C91783 /* TriTag_Prefix.h */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				42E5AAF506B81A97005E9006 /* Generated Resources */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+				42E5AAE006B819C0005E9006 /* TriTag.sdef */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				42E749B106A2DE1200A34CEA /* Info.plist */,
+				4247EDEF05149CFA00A87BA6 /* AppIcon.icns */,
+				42E32EAE05D16C70003AD492 /* Credits.html */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		42E5AAF506B81A97005E9006 /* Generated Resources */ = {
+			isa = PBXGroup;
+			children = (
+				42E5AAF106B81A8D005E9006 /* TriTag.scriptSuite */,
+				42E5AAF206B81A8D005E9006 /* TriTag.scriptTerminology */,
+			);
+			name = "Generated Resources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		42E7499306A2DE1200A34CEA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42E7499406A2DE1200A34CEA /* TriTag_Prefix.h in Headers */,
+				42E7499506A2DE1200A34CEA /* FFController.h in Headers */,
+				42E7499606A2DE1200A34CEA /* FFData.h in Headers */,
+				42E7499706A2DE1200A34CEA /* FFDropWindow.h in Headers */,
+				42E7499806A2DE1200A34CEA /* FFFilenameToTag.h in Headers */,
+				42E7499906A2DE1200A34CEA /* FFPlaceholders.h in Headers */,
+				42E7499A06A2DE1200A34CEA /* FFTagToFilename.h in Headers */,
+				42E7499B06A2DE1200A34CEA /* id3tag_filestructs.h in Headers */,
+				42E7499C06A2DE1200A34CEA /* FFStringAdditions.h in Headers */,
+				42E7499D06A2DE1200A34CEA /* rcsid.h in Headers */,
+				42E7499E06A2DE1200A34CEA /* FFSupport.h in Headers */,
+				42F2621106B6BB1200159A0C /* FFV1Genres.h in Headers */,
+				42E5AACD06B816EA005E9006 /* FFScriptCommand.h in Headers */,
+				4260175006C6623000E353AA /* mp3tech.h in Headers */,
+				4260175606C6626C00E353AA /* FFMP3Len.h in Headers */,
+				4260179506C66C9900E353AA /* FFFreeDB.h in Headers */,
+				424A945906C69754002F28B8 /* FFPreferences.h in Headers */,
+				42A5B29F06C7C88E00BD54AA /* FFProgress.h in Headers */,
+				42E5894506CAAD3200ED1BE5 /* FFFavPatterns.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		42E7499206A2DE1200A34CEA /* TriTag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 420EC2A40AA217610037169D /* Build configuration list for PBXNativeTarget "TriTag" */;
+			buildPhases = (
+				42E7499306A2DE1200A34CEA /* Headers */,
+				42E7499F06A2DE1200A34CEA /* Resources */,
+				42E749A406A2DE1200A34CEA /* Sources */,
+				42E749AE06A2DE1200A34CEA /* Frameworks */,
+				42E5AAED06B81A20005E9006 /* ShellScript */,
+				424A94B306C69C1F002F28B8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TriTag;
+			productName = TriTag;
+			productReference = 42E749D306A2DF0B00A34CEA /* TriTag.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 420EC2A80AA217610037169D /* Build configuration list for PBXProject "TriTag" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* TriTag */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42E7499206A2DE1200A34CEA /* TriTag */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42E7499F06A2DE1200A34CEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42E749A006A2DE1200A34CEA /* MainMenu.nib in Resources */,
+				42E749A106A2DE1200A34CEA /* InfoPlist.strings in Resources */,
+				42E749A206A2DE1200A34CEA /* AppIcon.icns in Resources */,
+				42E749A306A2DE1200A34CEA /* Credits.html in Resources */,
+				42E5AAF306B81A8D005E9006 /* TriTag.scriptSuite in Resources */,
+				42E5AAF406B81A8D005E9006 /* TriTag.scriptTerminology in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		42E5AAED06B81A20005E9006 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				TriTag.sdef,
+			);
+			outputPaths = (
+				TriTag.scriptSuite,
+				TriTag.scriptTerminology,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/bin/sdp -f st TriTag.sdef";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42E749A406A2DE1200A34CEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42E749A506A2DE1200A34CEA /* main.m in Sources */,
+				42E749A606A2DE1200A34CEA /* FFController.m in Sources */,
+				42E749A706A2DE1200A34CEA /* FFData.m in Sources */,
+				42E749A806A2DE1200A34CEA /* FFDropWindow.m in Sources */,
+				42E749A906A2DE1200A34CEA /* FFFilenameToTag.m in Sources */,
+				42E749AA06A2DE1200A34CEA /* FFPlaceholders.m in Sources */,
+				42E749AB06A2DE1200A34CEA /* FFTagToFilename.m in Sources */,
+				42E749AC06A2DE1200A34CEA /* FFStringAdditions.m in Sources */,
+				42E749AD06A2DE1200A34CEA /* FFSupport.m in Sources */,
+				42F2621206B6BB1200159A0C /* FFV1Genres.m in Sources */,
+				42E5AACE06B816EA005E9006 /* FFScriptCommand.m in Sources */,
+				4260174F06C6623000E353AA /* mp3tech.c in Sources */,
+				4260175706C6626C00E353AA /* FFMP3Len.c in Sources */,
+				4260179406C66C9900E353AA /* FFFreeDB.m in Sources */,
+				424A945806C69754002F28B8 /* FFPreferences.m in Sources */,
+				42A5B2A006C7C88E00BD54AA /* FFProgress.m in Sources */,
+				42E5894406CAAD3200ED1BE5 /* FFFavPatterns.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		420EC2A50AA217610037169D /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = ../AGRegex/build;
+				GCC_ALTIVEC_EXTENSIONS = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TriTag_Prefix.h;
+				HEADER_SEARCH_PATHS = /sw/include;
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = /sw/lib;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-lid3tag";
+				PRODUCT_NAME = TriTag;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Development;
+		};
+		420EC2A60AA217610037169D /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = ../AGRegex/build;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TriTag_Prefix.h;
+				HEADER_SEARCH_PATHS = /opt/local/include;
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = /opt/local/lib;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-lid3tag";
+				PRODUCT_NAME = TriTag;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		420EC2A70AA217610037169D /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = ../AGRegex/build;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TriTag_Prefix.h;
+				HEADER_SEARCH_PATHS = /sw/include;
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = /usr/lib/gcc/darwin/3.3;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = TriTag;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			name = Default;
+		};
+		420EC2A90AA217610037169D /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Development;
+		};
+		420EC2AA0AA217610037169D /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Deployment;
+		};
+		420EC2AB0AA217610037169D /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		420EC2A40AA217610037169D /* Build configuration list for PBXNativeTarget "TriTag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				420EC2A50AA217610037169D /* Development */,
+				420EC2A60AA217610037169D /* Deployment */,
+				420EC2A70AA217610037169D /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		420EC2A80AA217610037169D /* Build configuration list for PBXProject "TriTag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				420EC2A90AA217610037169D /* Development */,
+				420EC2AA0AA217610037169D /* Deployment */,
+				420EC2AB0AA217610037169D /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

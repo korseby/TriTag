@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dictionary SYSTEM "file://localhost/System/Library/DTDs/sdef.dtd">
+
+<!--
+	TriTag commands
+-->
+
+<dictionary title="Standard Terminology">
+	<suite name="TriTag" code="????" description="Tritag commands.">
+		<types>
+			<enumeration name="options" code="opts">
+				<enumerator name="replace_underscores" code="tund" description="."/>
+				<enumerator name="replace_dots" code="tdts" description="."/>
+				<enumerator name="keep_data" code="tkdt" description="."/>
+				<enumerator name="generate_v1_tag" code="tv1t" description="."/>
+				<enumerator name="pad_tag" code="tpad" description="."/>
+				<enumerator name="replace_spaces" code="fspc" description="."/>
+				<enumerator name="sort_into_folders" code="ffdr" description="."/>
+			</enumeration>
+			<enumeration name="modes" code="mods">
+				<enumerator name="to_tag" code="mftt" description="Filename to Tag."/>
+				<enumerator name="to_filename" code="mttf" description="Tag to Filename."/>				
+			</enumeration>
+			<enumeration name="default_values" code="dval">
+				<enumerator name="artist" code="dart" description="."/>
+				<enumerator name="album" code="dalb" description="."/>
+				<enumerator name="year" code="dyar" description="."/>
+				<enumerator name="genre" code="dgre" description="."/>
+			</enumeration>
+		</types>
+		<commands>
+			<command name="add" code="ttagaddf" description="Adds a file.">
+				<cocoa class="FFScriptCommand"/>
+				<direct-parameter type="file" description="POSIX filename."/>
+			</command>
+			<command name="clear" code="ttagclrl" description="Clears the list.">
+				<cocoa class="FFScriptCommand"/>
+			</command>
+			<command name="pattern" code="ttagspat" description="Sets the pattern.">
+				<cocoa class="FFScriptCommand"/>		
+				<direct-parameter type="string" description="The new pattern."/>
+			</command>			
+			<command name="outdir" code="ttagodir" description="Sets the output directory.">
+				<cocoa class="FFScriptCommand"/>		
+				<direct-parameter type="file" description="POSIX directory."/>
+			</command>
+			<command name="actionmode" code="ttagmode" description="Sets the mode.">
+				<cocoa class="FFScriptCommand"/>		
+				<direct-parameter type="modes" description="The new mode."/>
+			</command>
+			<command name="option" code="ttagsopt" description="Sets an option.">
+				<cocoa class="FFScriptCommand"/>
+				<parameter name="name" code="opts" type="options" description="Option to be set.">
+					<cocoa key="name"/>
+				</parameter>
+				<parameter name="checked" code="chkd" type="boolean" description="true = checked.">
+					<cocoa key="checked"/>
+				</parameter>
+			</command>
+			<command name="forcedefaults" code="ttagfdvl" description="Force the default value.">
+				<cocoa class="FFScriptCommand"/>		
+				<direct-parameter type="boolean" description="Force or not."/>
+			</command>
+			<command name="default" code="ttagdval" description="Sets an default value.">
+				<cocoa class="FFScriptCommand"/>
+				<parameter name="name" code="dval" type="default_values" description="Name of the target field.">
+					<cocoa key="name"/>
+				</parameter>
+				<parameter name="value" code="valu" type="string" description="The new value">
+					<cocoa key="value"/>
+				</parameter>
+			</command>
+			<command name="track" code="ttagtrck" description="Modifies the values of a track (= row).">
+				<cocoa class="FFScriptCommand"/>
+				<parameter name="artist" code="tart" type="string" description="Artist.">
+					<cocoa key="artist"/>
+				</parameter>
+				<parameter name="album" code="talb" type="string" description="Album.">
+					<cocoa key="album"/>
+				</parameter>
+				<parameter name="tracktitle" code="titl" type="string" description="Track title.">
+					<cocoa key="tracktitle"/>
+				</parameter>
+				<parameter name="year" code="tyer" type="string" description="Year.">
+					<cocoa key="year"/>
+				</parameter>
+				<parameter name="trackno" code="trno" type="integer" description="Specifies the row.">
+					<cocoa key="trackno"/>
+				</parameter>
+				<parameter name="reload" code="trrf" type="boolean" description="Reload (= repaint) the table data">
+					<cocoa key="reload"/>
+				</parameter>
+			</command>
+			<command name="reload" code="ttagreld" description="Reload the table data. Makes sense after several 'track' commands.">
+				<cocoa class="FFScriptCommand"/>
+			</command>
+			<command name="apply" code="ttagappl" description="Same as clicking the 'Apply' button.">
+				<cocoa class="FFScriptCommand"/>
+			</command>
+		</commands>
+	</suite>
+</dictionary>
