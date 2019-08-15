@@ -1,4 +1,4 @@
-RCS_ID("$Id: FFController.m 264 2004-08-20 14:22:11Z ravemax $")
+//RCS_ID("$Id: FFController.m 264 2004-08-20 14:22:11Z ravemax $")
 
 #import "FFController.h"
 #import "FFData.h"

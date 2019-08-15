@@ -1,4 +1,4 @@
-RCS_ID("$Id: FFMP3Len.c 243 2004-08-12 18:14:36Z ravemax $")
+//RCS_ID("$Id: FFMP3Len.c 243 2004-08-12 18:14:36Z ravemax $")
 
 #include "FFMP3Len.h"
 #include <stdio.h>

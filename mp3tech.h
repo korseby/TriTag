@@ -44,6 +44,10 @@ TriTag: This file was modified (e.g. unused methods were removed) !
 #define MIN_FRAME_SIZE 21
 #define NUM_SAMPLES 4
 
+#ifndef uint
+#define uint unsigned int
+#endif
+
 enum VBR_REPORT { VBR_VARIABLE, VBR_AVERAGE, VBR_MEDIAN };
 enum SCANTYPE { SCAN_NONE, SCAN_QUICK, SCAN_FULL };
 

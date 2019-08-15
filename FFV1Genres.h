@@ -4,4 +4,4 @@
 
 NSString* v1GenreToString(int index); // NULL if invalid index
 int v1GenreFromString(NSString* str); // GENRE_CUSTOM if unknown
-NSArray* v1Genres();
+NSArray* v1Genres(void);

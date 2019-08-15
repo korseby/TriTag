@@ -33,6 +33,7 @@ TriTag: This file was modified (e.g. unused methods were removed) !
 */
 
 #include <stdio.h>
+#include <string.h>
 #include "mp3tech.h"
 
 int layer_tab[4]= {0, 3, 2, 1};

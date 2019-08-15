@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 42;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -21,8 +21,6 @@
 		42E5894506CAAD3200ED1BE5 /* FFFavPatterns.h in Headers */ = {isa = PBXBuildFile; fileRef = 42E5894306CAAD3200ED1BE5 /* FFFavPatterns.h */; };
 		42E5AACD06B816EA005E9006 /* FFScriptCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 42E5AACB06B816EA005E9006 /* FFScriptCommand.h */; };
 		42E5AACE06B816EA005E9006 /* FFScriptCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E5AACC06B816EA005E9006 /* FFScriptCommand.m */; };
-		42E5AAF306B81A8D005E9006 /* TriTag.scriptSuite in Resources */ = {isa = PBXBuildFile; fileRef = 42E5AAF106B81A8D005E9006 /* TriTag.scriptSuite */; };
-		42E5AAF406B81A8D005E9006 /* TriTag.scriptTerminology in Resources */ = {isa = PBXBuildFile; fileRef = 42E5AAF206B81A8D005E9006 /* TriTag.scriptTerminology */; };
 		42E7499406A2DE1200A34CEA /* TriTag_Prefix.h in Headers */ = {isa = PBXBuildFile; fileRef = 32CA4F630368D1EE00C91783 /* TriTag_Prefix.h */; };
 		42E7499506A2DE1200A34CEA /* FFController.h in Headers */ = {isa = PBXBuildFile; fileRef = 42F364D504FA460B00A87BA6 /* FFController.h */; };
 		42E7499606A2DE1200A34CEA /* FFData.h in Headers */ = {isa = PBXBuildFile; fileRef = 42F364D904FA47BE00A87BA6 /* FFData.h */; };
@@ -65,10 +63,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32CA4F630368D1EE00C91783 /* TriTag_Prefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriTag_Prefix.h; sourceTree = "<group>"; };
@@ -97,8 +93,6 @@
 		42E5AACB06B816EA005E9006 /* FFScriptCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFScriptCommand.h; sourceTree = "<group>"; };
 		42E5AACC06B816EA005E9006 /* FFScriptCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFScriptCommand.m; sourceTree = "<group>"; };
 		42E5AAE006B819C0005E9006 /* TriTag.sdef */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = TriTag.sdef; sourceTree = "<group>"; };
-		42E5AAF106B81A8D005E9006 /* TriTag.scriptSuite */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = TriTag.scriptSuite; sourceTree = "<group>"; };
-		42E5AAF206B81A8D005E9006 /* TriTag.scriptTerminology */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = TriTag.scriptTerminology; sourceTree = "<group>"; };
 		42E7498806A2DC4200A34CEA /* rcsid.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = rcsid.h; sourceTree = "<group>"; };
 		42E7498A06A2DD2000A34CEA /* FFSupport.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = FFSupport.h; sourceTree = "<group>"; };
 		42E7498B06A2DD2000A34CEA /* FFSupport.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = FFSupport.m; sourceTree = "<group>"; };
@@ -114,6 +108,8 @@
 		42F364DE04FA51E900A87BA6 /* FFDropWindow.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = FFDropWindow.m; sourceTree = "<group>"; };
 		42F364E104FA687E00A87BA6 /* FFFilenameToTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFFilenameToTag.h; sourceTree = "<group>"; };
 		42F364E204FA687E00A87BA6 /* FFFilenameToTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFFilenameToTag.m; sourceTree = "<group>"; };
+		489905B523056543003B0A76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		489905B72305654A003B0A76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Base; path = Base.lproj/MainMenu.nib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,7 +215,6 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				42E5AAF506B81A97005E9006 /* Generated Resources */,
 				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
 				42E5AAE006B819C0005E9006 /* TriTag.sdef */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
@@ -237,15 +232,6 @@
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		42E5AAF506B81A97005E9006 /* Generated Resources */ = {
-			isa = PBXGroup;
-			children = (
-				42E5AAF106B81A8D005E9006 /* TriTag.scriptSuite */,
-				42E5AAF206B81A8D005E9006 /* TriTag.scriptTerminology */,
-			);
-			name = "Generated Resources";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,9 +291,18 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = korseby;
+			};
 			buildConfigurationList = 420EC2A80AA217610037169D /* Build configuration list for PBXProject "TriTag" */;
-			compatibilityVersion = "Xcode 2.4";
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+				Base,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* TriTag */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -326,8 +321,6 @@
 				42E749A106A2DE1200A34CEA /* InfoPlist.strings in Resources */,
 				42E749A206A2DE1200A34CEA /* AppIcon.icns in Resources */,
 				42E749A306A2DE1200A34CEA /* Credits.html in Resources */,
-				42E5AAF306B81A8D005E9006 /* TriTag.scriptSuite in Resources */,
-				42E5AAF406B81A8D005E9006 /* TriTag.scriptTerminology in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,7 +376,7 @@
 		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				089C165DFE840E0CC02AAC07 /* English */,
+				489905B523056543003B0A76 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -391,7 +384,7 @@
 		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				29B97319FDCFA39411CA2CEA /* English */,
+				489905B72305654A003B0A76 /* Base */,
 			);
 			name = MainMenu.nib;
 			sourceTree = "<group>";
@@ -402,22 +395,29 @@
 		420EC2A50AA217610037169D /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 38LK8GYZRC;
+				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = ../AGRegex/build;
 				GCC_ALTIVEC_EXTENSIONS = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = TriTag_Prefix.h;
-				HEADER_SEARCH_PATHS = /sw/include;
+				HEADER_SEARCH_PATHS = /opt/include;
 				INFOPLIST_FILE = Info.plist;
-				LIBRARY_SEARCH_PATHS = /sw/lib;
+				LIBRARY_SEARCH_PATHS = /opt/lib;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "-lid3tag";
+				PRODUCT_BUNDLE_IDENTIFIER = net.korseby.tritag;
 				PRODUCT_NAME = TriTag;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SECTORDER_FLAGS = "";
+				VALID_ARCHS = x86_64;
 				WARNING_CFLAGS = (
 					"-Wmost",
 					"-Wno-four-char-constants",
@@ -431,19 +431,27 @@
 		420EC2A60AA217610037169D /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = 38LK8GYZRC;
+				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = ../AGRegex/build;
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = TriTag_Prefix.h;
-				HEADER_SEARCH_PATHS = /opt/local/include;
+				HEADER_SEARCH_PATHS = /opt/include;
 				INFOPLIST_FILE = Info.plist;
-				LIBRARY_SEARCH_PATHS = /opt/local/lib;
+				LIBRARY_SEARCH_PATHS = /opt/lib;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "-lid3tag";
+				PRODUCT_BUNDLE_IDENTIFIER = net.korseby.tritag;
 				PRODUCT_NAME = TriTag;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SECTORDER_FLAGS = "";
+				VALID_ARCHS = x86_64;
 				WARNING_CFLAGS = (
 					"-Wmost",
 					"-Wno-four-char-constants",
@@ -457,18 +465,27 @@
 		420EC2A70AA217610037169D /* Default */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 38LK8GYZRC;
+				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = ../AGRegex/build;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = TriTag_Prefix.h;
-				HEADER_SEARCH_PATHS = /sw/include;
+				HEADER_SEARCH_PATHS = /opt/include;
 				INFOPLIST_FILE = Info.plist;
-				LIBRARY_SEARCH_PATHS = /usr/lib/gcc/darwin/3.3;
+				LIBRARY_SEARCH_PATHS = /opt/lib;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
+				OTHER_LDFLAGS = "-lid3tag";
+				PRODUCT_BUNDLE_IDENTIFIER = net.korseby.tritag;
 				PRODUCT_NAME = TriTag;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SECTORDER_FLAGS = "";
+				VALID_ARCHS = x86_64;
 				WARNING_CFLAGS = (
 					"-Wmost",
 					"-Wno-four-char-constants",
@@ -481,18 +498,113 @@
 		420EC2A90AA217610037169D /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
+				ENABLE_ON_DEMAND_RESOURCES = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = /opt/include;
 			};
 			name = Development;
 		};
 		420EC2AA0AA217610037169D /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
+				ENABLE_ON_DEMAND_RESOURCES = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				SDKROOT = macosx;
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = /opt/include;
 			};
 			name = Deployment;
 		};
 		420EC2AB0AA217610037169D /* Default */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
+				ENABLE_ON_DEMAND_RESOURCES = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				SDKROOT = macosx;
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = /opt/include;
 			};
 			name = Default;
 		};

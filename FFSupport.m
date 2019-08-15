@@ -19,7 +19,7 @@
  *	Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-RCS_ID("$Id: FFSupport.m 209 2004-07-13 14:18:21Z ravemax $")
+//RCS_ID("$Id: FFSupport.m 209 2004-07-13 14:18:21Z ravemax $")
 
 #import "FFSupport.h"
 
