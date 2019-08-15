@@ -48,16 +48,19 @@
 		42E749AF06A2DE1200A34CEA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		42F2621106B6BB1200159A0C /* FFV1Genres.h in Headers */ = {isa = PBXBuildFile; fileRef = 42F2620F06B6BB1200159A0C /* FFV1Genres.h */; };
 		42F2621206B6BB1200159A0C /* FFV1Genres.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F2621006B6BB1200159A0C /* FFV1Genres.m */; };
+		48B861D92305B13800D0BA0C /* libid3tag.0.3.0.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 48B861D82305B13800D0BA0C /* libid3tag.0.3.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		424A94B306C69C1F002F28B8 /* CopyFiles */ = {
+		48B861D72305B09700D0BA0C /* Embed Libraries */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
-			dstSubfolderSpec = 10;
+			dstSubfolderSpec = 6;
 			files = (
+				48B861D92305B13800D0BA0C /* libid3tag.0.3.0.dylib in Embed Libraries */,
 			);
+			name = "Embed Libraries";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -110,6 +113,7 @@
 		42F364E204FA687E00A87BA6 /* FFFilenameToTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFFilenameToTag.m; sourceTree = "<group>"; };
 		489905B523056543003B0A76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		489905B72305654A003B0A76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Base; path = Base.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		48B861D82305B13800D0BA0C /* libid3tag.0.3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libid3tag.0.3.0.dylib; path = ../../../../opt/lib/libid3tag.0.3.0.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +189,7 @@
 		29B97314FDCFA39411CA2CEA /* TriTag */ = {
 			isa = PBXGroup;
 			children = (
+				48B861D82305B13800D0BA0C /* libid3tag.0.3.0.dylib */,
 				42CEF80306A41BE20047A49F /* BuildNotes.txt */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -274,8 +279,8 @@
 				42E7499F06A2DE1200A34CEA /* Resources */,
 				42E749A406A2DE1200A34CEA /* Sources */,
 				42E749AE06A2DE1200A34CEA /* Frameworks */,
+				48B861D72305B09700D0BA0C /* Embed Libraries */,
 				42E5AAED06B81A20005E9006 /* ShellScript */,
-				424A94B306C69C1F002F28B8 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -341,7 +346,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "/usr/bin/sdp -f st TriTag.sdef";
+			shellScript = "/usr/bin/sdp -f st TriTag.sdef\ninstall_name_tool -change `otool -L $TARGET_BUILD_DIR/$EXECUTABLE_FOLDER_PATH/*.dylib | grep -v \\:$ | grep libid3tag | awk '{print $1}'` @executable_path/libid3tag.0.3.0.dylib $TARGET_BUILD_DIR/$EXECUTABLE_PATH\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
